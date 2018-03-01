@@ -2519,10 +2519,10 @@ html[lang="dm"] .linkinfo .shortlink input{background:#444}html[lang="dm"] #site
 
 /*ADD SNIPPETS BELOW THIS LINE===========================================================*/
 
-/*----------------------------User Image Flair----------------------------------*/
 .flair {
     border: none;
-    background: url(%%Crypto-Spritesheet%%) no-repeat 0 10px;
+    background: url(%%Userflair-1%%) no-repeat 0 10px;
+    background-size: auto;
     padding: 0;
     color:black;
     white-space: nowrap;
@@ -2536,22 +2536,15 @@ html[lang="dm"] .linkinfo .shortlink input{background:#444}html[lang="dm"] #site
      /*-webkit-transform: scale(.7);
     transform: scale(.7);*/
 }
-
-.flair-Bitcoin {background-position: -14px -25px; min-width: 24px; text-indent: 30px;}
-.flair-BitShares {background-position: -14px -56px; min-width: 24px; text-indent: 31px;}
-.flair-Darkcoin {background-position: -4px -83px; min-width: 40px; text-indent: 46px;}
-.flair-Dogecoin {background-position: -16px -112px; min-width: 23px; text-indent: 30px;}
-.flair-Ethereum {background-position: -20px -143px; min-width: 16px; text-indent: 25px;}
-.flair-ETC {background-position: -20px -171px; min-width: 16px; text-indent: 27px;}
-.flair-Litecoin {background-position: -18px -199px; min-width: 24px; text-indent: 30px;}
+ 
+.flair-Bitcoin {background-position: -14px -25px; min-width: 24px; text-indent: 30px;} 
+.flair-BitShares {background-position: -14px -56px; min-width: 24px; text-indent: 31px;} 
+.flair-Ethereum {background-position: -20px -143px; min-width: 16px; text-indent: 25px;} 
+.flair-ETC {background-position: -20px -171px; min-width: 16px; text-indent: 27px;} 
 .flair-Lisk {background-position: -20px -228px; min-width: 20px; text-indent: 28px;}
-.flair-Monero {background-position: -18px -256px; min-width: 26px; text-indent: 31px;}
-.flair-Namecoin {background-position: -18px -285px; min-width: 24px; text-indent: 30px;}
+.flair-Monero {background-position: -18px -256px; min-width: 26px; text-indent: 31px;} 
 .flair-Nextcoin {background-position: -18px -314px; min-width: 26px; text-indent: 30px;}
-.flair-Peercoin {background-position: -20px -344px; min-width: 24px; text-indent: 30px;}
-.flair-Ripple {background-position: -21px -372px; min-width: 23px; text-indent: 30px;}
-.flair-NEM {background-position: -20px -404px; min-width: 23px; text-indent: 30px;}
-
+ 
 .flair-Augur {background-position: -21px -587px; min-width: 17px; text-indent: 30px;}
 .flair-BoardRoom {background-position: -20px -617px; min-width: 24px; text-indent: 30px;}
 .flair-BlockApps {background-position: -20px -644px; min-width: 24px; text-indent: 30px;}
@@ -2580,12 +2573,12 @@ html[lang="dm"] .linkinfo .shortlink input{background:#444}html[lang="dm"] #site
 .flair-WeiFund {background-position: -21px -1370px; min-width: 21px; text-indent: 30px;}
 .flair-BitSharesX {background-position: -13px -1399px; min-width: 37px; text-indent: 45px;}
 .flair-Colony {background-position: -21px -1423px; min-width: 23px; text-indent: 30px;}
-
+ 
 .flair-GDAX {background-position: -3px -1519px; min-width: 61px; text-indent: 69px;}
 .flair-Kraken {background-position: -18px -1548px; min-width: 30px; text-indent: 40px;}
 .flair-Polo {background-position: -15px -1580px; min-width: 32px; text-indent: 42px;}
-
-.flair-Analyst {background-position: -21px -1890px; min-width: 32px; text-indent: 34px;}
+ 
+.flair-Analyst {background-position: -21px -1890px; min-width: 32px; text-indent: 34px;} 
 .flair-Altcoiner {background-position: -13px -1919px; min-width: 47px; text-indent: 55px;}
 .flair-Bull {background-position: -14px -1977px; min-width: 39px; text-indent: 45px;}
 .flair-Bear {background-position: -14px -2007px; min-width: 39px; text-indent: 45px;}
@@ -2599,9 +2592,7 @@ html[lang="dm"] .linkinfo .shortlink input{background:#444}html[lang="dm"] #site
 .flair-Gentleman {background-position: -19px -2250px; min-width: 24px; text-indent: 36px;}
 .flair-Investor {background-position: -25px -2283px; min-width: 14px; text-indent: 25px;}
 .flair-Clover {background-position: -20px -2313px; min-width: 23px; text-indent: 33px;}
-/*.flair-Moon {background-position: -19px -2376px; min-width: 24px; text-indent: 30px;}*/
 .flair-Moon {background-position: -19px -2408px; min-width: 22px; text-indent: 28px;}
-/*.flair-Miner {background-position: -19px -2441px; min-width: 26px; text-indent: 35px;}*/
 .flair-Miner {background-position: -19px -2472px; min-width: 26px; text-indent: 33px;}
 .flair-Observer {background-position: -17px -2501px; min-width: 32px; text-indent: 41px;}
 .flair-Trader {background-position: -20px -2533px; min-width: 27px; text-indent: 36px;}
@@ -2612,52 +2603,114 @@ html[lang="dm"] .linkinfo .shortlink input{background:#444}html[lang="dm"] #site
 .flair-Tesla {background-position: -8px -2675px; min-width: 72px; text-indent: 79px;}
 .flair-Burrito {background-position: -15px -2650px; min-width: 52px; text-indent: 59px;}
 .flair-Flip {background-position: -20px -2702px; min-width: 39px; text-indent: 53px;}
-
-.flair-Pacifier {background-position: -17px -2859px; min-width: 31px; text-indent: 35px;}
-.flair-Mod {background-position: -20px -2891px; min-width: 24px; text-indent: 36px;}
-.flair-New {background-position: -17px -2859px; min-width: 32px; text-indent: 42px;}
+ 
 .flair-EthereumOfficial {background-position: -26px -2960px; min-width: 15px; text-indent: 25px;}
 .flair-noflair {display: none !important; background-position: -38px -03px; min-width: 15px; text-indent: 0px;}
-
+ 
+ 
+/*----------------------------User Image Flair - 2----------------------------------*/
+.flair[class*="2-"]
+/*.flair[class*="-2-"]*/ { 
+    border: none;
+    background-image: url(%%Userflair-2%%) !important;
+    /*background: url(%%Crypto-Spritesheet%%) no-repeat 0 10px !important;*/
+    background-size: 26px;
+    padding: 0;
+    color:black;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 0;
+    position: relative;
+    /*width:auto;*/
+    height: 24px;
+    line-height: 24px;
+    margin-left: 8px;
+     /*-webkit-transform: scale(.7);
+    transform: scale(.7);*/}
+ 
+.flair-2-Bitcoin {background-position: 0px -2px; min-width: 24px; text-indent: 30px;}
+.flair-2-Litecoin {background-position: 0px -28px; min-width: 24px; text-indent: 30px;}
+.flair-2-Ethereum {background-position: 0px -55px; min-width: 26px; text-indent: 26px;}
+.flair-2-NEO {background-position: 0px -156px; min-width: 25px; text-indent: 30px;}
+.flair-2-Monero {background-position: 0px -208px; min-width: 26px; text-indent: 30px;}
+.flair-2-ETC {background-position: 0px -234px; min-width: 26px; text-indent: 26px;}
+.flair-2-OMG {background-position: 0px -259px; min-width: 26px; text-indent: 30px;}
+.flair-2-BitShares {background-position: 0px -312px; min-width: 24px; text-indent: 25px;}
+.flair-2-Factom {background-position: 0px -363px; min-width: 24px; text-indent: 30px;}
+.flair-2-Nxt {background-position: 0px -491px; min-width: 24px; text-indent: 28px;}
+.flair-2-Waves {background-position: 0px -1033px; min-width: 24px; text-indent: 28px;}
+ 
+.flair-2-Moon {background-position: 0px -517px; min-width: 32px; text-indent: 30px;}
+.flair-2-Fan {background-position: 0px -543px; min-width: 32px; text-indent: 30px;}
+.flair-2-Analyst {background-position: 0px -570px; min-width: 32px; text-indent: 27px;}
+.flair-2-Gentleman {background-position: 0px -597px; min-width: 32px; text-indent: 29px;}
+.flair-2-Trader {background-position: 0px -623px; min-width: 32px; text-indent: 30px;}
+.flair-2-Observer {background-position: 0px -647px; min-width: 32px; text-indent: 30px;} 
+.flair-2-Developer {background-position: 0px -673px; min-width: 32px; text-indent: 30px;} 
+.flair-2-Altcoiner {background-position: 0px -698px; min-width: 32px; text-indent: 30px;}
+.flair-2-Investor {background-position: 0px -724px; min-width: 32px; text-indent: 30px;} 
+.flair-2-Miner {background-position: 0px -750px; min-width: 32px; text-indent: 30px;}
+.flair-2-Student {background-position: 0px -775px; min-width: 32px; text-indent: 30px;} 
+.flair-2-Entrepreneur {background-position: 0px -801px; min-width: 32px; text-indent: 30px;} 
+ 
+.{display: none !important; background-position: 0px 50px; min-width: 15px; text-indent: 0px;}
+.flair-2-Pacifier {background-position: 0px -826px; min-width: 31px; text-indent: 30px;}
+.flair-2-Mod {background-position: 0px -852px; min-width: 24px; text-indent: 28px;}
+.flair-2-New {background-position: 0px -826px; min-width: 31px; text-indent: 30px;}
+.flair-2-Training {background-position: 0px -1110px; min-width: 24px; text-indent: 28px;}
+.flair-2-Training-2 {background-position: 0px -1110px; min-width: 24px; text-indent: 28px;}
+ 
+.flair-2-Trophygold {background-position: 0px -878px; min-width: 24px; text-indent: 28px;}
+.flair-2-Trophysilver {background-position: 0px -904px; min-width: 24px; text-indent: 28px;}
+.flair-2-Trophybronze {background-position: 0px -930px; min-width: 24px; text-indent: 28px;}
+ 
+.flair-2-Warning-level1 {background-position: 0px -982px; min-width: 24px; text-indent: 28px;}
+.flair-2-Warning-level2 {background-position: 0px -956px; min-width: 24px; text-indent: 28px;}
+.flair-2-Warning-level3 {background-position: 0px -1008px; min-width: 24px; text-indent: 28px;}
+.flair-2-Warning-level4 {background-position: 0px -1060px; min-width: 24px; text-indent: 28px;}
+.flair-2-Warning-level5 {background-position: 0px -1085px; min-width: 24px; text-indent: 28px;}
+ 
 /*Flair Filter Buttons*/
 .side a[href^='https://goo.gl/']  {display: inline-block; position: relative; margin-top: 5px; border: 1px solid #000; /*font-size:100%;*/ font-weight:bold; padding-top: 2px; padding-bottom: 1px; padding-right:5px; padding-left:5px; margin: 2px 2px 0px 0px; line-height: 11px; font-size: 10px; border-radius: 8px; }
-
+ 
 /*WARNING*/ .side a[href*='https://goo.gl/B2XjvB'] {background:#EEEE00; color:#f90205; border-color:black; }
+/*TOKEN WARNING*/ .side a[href*='https://goo.gl/Y2P8hb'] {background:#FFFF22; color:#fB2427; border-color:black; }
 /*SCAM*/.side a[href*='https://goo.gl/FxNZtX'] {background:#f90205; color:#EEEE00; border-color:black; }
 /*TECHNICAL ANALYSIS*/.side a[href*='https://goo.gl/olg6DT'] {background:black; color: #66FF00; border-color: red; }
 /*FUNDAMENTAL ANALYSIS*/.side a[href*='https://goo.gl/eK9oke'] {background:#F1F4F9; color:#485A70; border-color: #9D7448; }
 /*NEWS*/.side a[href*='https://goo.gl/Q6YHvI'] {background:#78A1D5; color: #070302; border-color:#070302; }
+/*DAPP NEWS*/.side a[href*='https://goo.gl/Zrnfbm'] {background:#9AC3F7; color: #292524; border-color:#292524; }
 /*DISCUSSION*/.side a[href*='https://goo.gl/V3ta2b'] {background:#008000; color: white; border-color: #008000; }
+/*DAPP DISCUSSION*/.side a[href*='https://goo.gl/e3iqep'] {background:#22A222; color: white; border-color: #22A222; }
 /*EXCHANGES*/.side a[href*='https://goo.gl/dZDxvE'] {background:#04292C; color: #34cbd1; border-color: #A1A3A5; border-width: 1.3px;}
 /*DAPP*/.side a[href*='https://goo.gl/MnB2BK'] {background:#43443F; color: white; border-color: #43443F; }
 /*ALTETH*/.side a[href*='https://goo.gl/w11Xyf'] {background:#9094A7; color: white; border-color: #9094A7; }
 /*LEGACY*/.side a[href*='https://goo.gl/A6Qryk'] {background:#EB9123; color: white; border-color: #EB9123; }
 /*RELEASE*/.side a[href*='https://goo.gl/6FWa7p'] {background:#13A2DC; color: white; border-color: #13A2DC; }
+/*DAPP RELEASE*/.side a[href*='https://goo.gl/LKUpiK'] {background:#25C4FE; color: white; border-color: #25C4FE; }
 /*MINING*/.side a[href*='https://goo.gl/7DRuZh'] {background:white; color: #C38A41; border-color: #C38A41; }
 /*SECURITY*/.side a[href*='https://goo.gl/00h6cm'] {background:white; color: #BB5A6A; border-color: #BB5A6A; }
 /*ALTCOIN*/.side a[href*='https://goo.gl/bvVfDu'] {background:white; color: #47FF00; border-color: yellow; }
 /*SENTIMENT*/.side a[href*='https://goo.gl/WAzjIx'] {background:orange; color: #006301; border-color:red ; }
 /*METRICS*/.side a[href*='https://goo.gl/JvW3Un'] {background:#58F800; color:black; border-color: black; }
 /*ADOPTION*/.side a[href*='https://goo.gl/d60Dg9'] {background:#5796D4; color:white; border-color: black; }
+/*DAPP ADOPTION*/.side a[href*='https://goo.gl/xCkoDA'] {background:#79B8F6; color:white; border-color: black;} 
+/*ERC20 TOKEN*/.side a[href*='https://goo.gl/Dj7eg9'] {background:#3F00FF; color:white; border-color: black; }
 /*STRATEGY*/.side a[href*='https://goo.gl/ilnQIH'] {background:#FDFDFD; color:#3E3E3E; border-color: #4DD6FF; }
 /*EDUCATIONAL*/.side a[href*='https://goo.gl/SgxiCW'] {background:#FFFF01; color:#454343; border-color: #58300C; }
-/*DAO*/ .side a[href*='https://goo.gl/BwKLfe'] {background:#EE413A; color:white; border-color:white; }
-/*MAKER*/ .side a[href*='https://goo.gl/kBjeaD'] {background:white; color:#6CC5B2; border-color:#85929C; }
-/*DIGIX*/ .side a[href*='https://goo.gl/0LRdtX'] {background:#053B4C; color:white; border-color:#D2953D; }
-/*AUGUR*/ .side a[href*='https://goo.gl/NMgm1p'] {background:white; color:#602A52; border-color:#602A52; }
+/*AUGUR*/ .side a[href*='https://goo.gl/NMgm1p'] {background:white; color:#602A52; border-color:#602A52; } 
 /*MEDIA*/ .side a[href*='https://goo.gl/MABryZ'] {background: black; color: gold; border-color:gold;}
-/*COMEDY*/ .side a[href*='https://goo.gl/FJaQ7E'] {background: black; color: #FE4D86; border-color: #00FFFF /*#EB1D4F*/;  border-width: 1.3px;}
+/*COMEDY*/ .side a[href*='https://goo.gl/FJaQ7E'] {background: #86DFEB; color: #ED217C; border-color: #FFF200; font-weight: bold;}
 /*SUPPORT*/ .side a[href*='https://goo.gl/AnnyVy'] {background:white; color:#1E3EEA; border-color:orange;}
 /*TOOL*/ .side a[href*='https://goo.gl/2iBlgC'] {background:#C8C8C8; color:#8F553D; border-color:#C37B17; }
-
-
-
+ 
+ 
+ 
 /*Flair Filter Button Highlight On Hover*/
 .side a[href^='https://goo.gl/']:hover { text-decoration:none; box-shadow: 0px 0px 10px 0px grey;}
-
-
-/*Link Flair Tags*/
-.linkflair .linkflairlabel {padding-top: 2px; padding-bottom: 1px; padding-right: 7px; padding-left: 7px; font-size: 10px; border-radius: 10px; overflow:visible; max-width: none;  }
+ 
+ /*Link Flair Tags*/
+.linkflair .linkflairlabel {padding-top: 2px; padding-bottom: 1px; padding-right: 7px; padding-left: 7px; font-size: 10px; border-radius: 10px; }
 .linkflair-TECHNICALS .linkflairlabel { background:black; color: #66FF00;  border-color: red;}
 .linkflair-FUNDAMENTALS .linkflairlabel { background:#F1F4F9; color:#485A70;  border-color: #9D7448;}
 .linkflair-NEWS .linkflairlabel  { background:#78A1D5; color:#070302; border-color: #070302;}
@@ -2676,13 +2729,13 @@ html[lang="dm"] .linkinfo .shortlink input{background:#444}html[lang="dm"] #site
 .linkflair-ADOPTION .linkflairlabel { background:#5796D4; color: white; border-color:black;}
 .linkflair-STRATEGY .linkflairlabel { background:#FDFDFD; color:#3E3E3E; border-color:#4DD6FF;}
 .linkflair-EDUCATIONAL .linkflairlabel { background:#FFFF01; color:#454343; border-color:#58300C;}
-.linkflair-SCAMS .linkflairlabel { background:#f90205; color:#EEEE00; border-color:black;}
+.linkflair-SCAM .linkflairlabel { background:#f90205; color:#EEEE00; border-color:black;}
 .linkflair-WARNING .linkflairlabel { background:#EEEE00; color:#f90205; border-color:black;}
 .linkflair-META .linkflairlabel { background:#FFFFFF; color:#514E55; border-color:#514E55;}
-.linkflair-unconfirmed .linkflairlabel  {background: red; color:white; border-color: orange;}
+.linkflair-UNCONFIRMED .linkflairlabel  {background: red; color:white; border-color: orange;}
 .linkflair-AUGUR .linkflairlabel  {background:white; color:#602A52; border-color:#602A52 ;}
 .linkflair-MEDIA .linkflairlabel  {background: black; color: gold; border-color:gold; }
-.linkflair-COMEDY .linkflairlabel  {background: black; color: #FE4D86; border-color: #00FFFF /*#EB1D4F*/;  border-width: 1.3px;}
+.linkflair-COMEDY .linkflairlabel  {background: #86DFEB; color: #ED217C; border-color: #FFF200;font-weight: bold;}
 .linkflair-SUPPORT .linkflairlabel  {background:white; color:#1E3EEA; border-color:orange;}
 .linkflair-TOOL .linkflairlabel  {background:#C8C8C8; color:#8F553D; border-color:#C37B17; }
 .linkflair-DAPP-NEWS .linkflairlabel  { background:#9AC3F7; color: #292524; border-color:#292524;}
@@ -2695,15 +2748,11 @@ html[lang="dm"] .linkinfo .shortlink input{background:#444}html[lang="dm"] #site
 .linkflair-DAPP-METRICS .linkflairlabel { background:#7AFA22; color:black; border-color:black;}
 .linkflair-DAPP-SENTIMENT .linkflairlabel { background:pink; color:#228523; border-color:maroon;}
 .linkflair-DAPP-STRATEGY .linkflairlabel { background:#FFFFFF; color:#5F5F5F; border-color:#6FF8FF;}
-.linkflair-ERC20-TOKENS .linkflairlabel { background:#3F00FF; color: white; border-color: black;}
-.linkflair-ERC20-STRATEGY .linkflairlabel { background:#FDFDFD; color:#3E3E3E; border-color:#4DD6FF;}
+.linkflair-ERC20-TOKEN .linkflairlabel { background:#3F00FF; color: white; border-color: black;}
 .linkflair-TOKEN-SECURITY .linkflairlabel { background:white; color:#DD7C8C; border-color: #DD7C8C;}
 .linkflair-TOKEN-WARNING .linkflairlabel { background:#FFFF22; color:#fB2427; border-color:black;}
-.linkflair-TOKEN-SCAMS .linkflairlabel { background:#FB2427; color:#FFFF22; border-color:black;}
-.linkflair-DAPP-TECHNICALS .linkflairlabel { background:black; color: #66FF00;  border-color: red;}
-
-
-
+.linkflair-TOKEN-SCAM .linkflairlabel { background:#FB2427; color:#FFFF22; border-color:black;}
+ 
 /*Announcement Banner */
 .titlebox h6:nth-of-type(1) {
 		display: block;
@@ -2715,12 +2764,12 @@ html[lang="dm"] .linkinfo .shortlink input{background:#444}html[lang="dm"] #site
 		padding: 0px 0px 0px 6px;
 		min-width: 0px;
 		background-color: white;
-		border: 1px
+		border: 1px 
 		solid #dcdcdc;
 		border-radius: 2px;
 		color: #666;
 		font-weight: normal;
-        text-decoration: none;
+        text-decoration: none; 
         z-index: 4;
         margin-bottom: 15px;
         border-radius: 5px;
@@ -2734,9 +2783,9 @@ html[lang="dm"] .linkinfo .shortlink input{background:#444}html[lang="dm"] #site
 		color: dark blue;
 		font-weight: bold;
 	}
-
+	
 	.content[role=main], .pretty-form { margin-top: 48px !important;}/*Adjusts position of content element*/
-
+	
 /*Announcement banner hover boxes*/
 	.titlebox h6:nth-of-type(1) [href*="https://bit.ly/2pz3BY5"]:hover:after {
     position: absolute;
@@ -2749,12 +2798,12 @@ html[lang="dm"] .linkinfo .shortlink input{background:#444}html[lang="dm"] #site
     margin-left: -240px;
     margin-right: 400;
     margin-top: 16px;
-    font-size: 5;
+    font-size: 5; 
     border-radius: 5px;
     border-color:white;
     content: "Compilation of future and past news on Ethereum events.";
 	}
-
+ 
 	.titlebox h6:nth-of-type(1) [href*="http://bit.ly/2rMAXmq"]:hover:after {
     position: absolute;
     margin-top: -1.5em;
@@ -2766,12 +2815,12 @@ html[lang="dm"] .linkinfo .shortlink input{background:#444}html[lang="dm"] #site
     margin-left: -250px;
     margin-right: 630;
     margin-top: 16px;
-    font-size: 5;
+    font-size: 5; 
     border-radius: 5px;
     border-color:white;
     content: 'A list of educational resources on Ethereum: FAQ, ICO safety checklist, etc.';
 	}
-
+ 
     .titlebox h6:nth-of-type(1) [href*="https://bit.ly/2goL5gG"]:hover:after {
     position: absolute;
     margin-top: -1.5em;
@@ -2783,12 +2832,12 @@ html[lang="dm"] .linkinfo .shortlink input{background:#444}html[lang="dm"] #site
     margin-left: -262px;
     margin-right: 630;
     margin-top: 16px;
-    font-size: 5;
+    font-size: 5; 
     border-radius: 5px;
     border-color:white;
     content: 'Support the Ethereum Foundation through ETH or BTC donations.';
 	}
-
+ 
 /*Adjust Position of user bar, search bar, submit links, and sidebar*/
 #header-bottom-right {
     top: auto!important;
@@ -2817,20 +2866,20 @@ html[lang="dm"] .linkinfo .shortlink input{background:#444}html[lang="dm"] #site
     margin-top: 6px;
     margin-bottom: 6px;
 }
-
-
+ 
+ 
 /*--Change the word for 'readers' and the currently online--*/
 .subscribers .word, .users-online .word{
 display:none;
 }
-.subscribers .number:after {
+.subscribers .number:after { 
 content: " hodlers"
 }
-.users-online .number:after {
-content: " visitors"
+.users-online .number:after { 
+content: " visitors" 
 }
-
-
+ 
+ 
 /*Flair Search Page Format Fix*/
 .search-page .content[role=main] {
     margin-top: 100px !important;
@@ -2853,60 +2902,60 @@ content: " visitors"
     right: 0;
     box-shadow: 0 2px 4px rgba(0,0,0,0.15);
 }
-
+ 
 /*Fixes Formatting for Flair Settings Page*/
 .flair-entry {
     margin-right: 150px;
     position: relative;
 }
-
+ 
 .flair-entry button {
     position: absolute;
 }
-
+ 
 .flair-entry button:last-of-type {
     left: 100%;
     margin-left: 67px;
 }
-
+ 
 .flair-entry button:first-of-type {
     left: 100%;
     margin-left: 0;
 }
-
+ 
 /* flair lists */
 .flairtemplate .flaircell.tagline,
 .flairlist.usertable > .flairrow > .tagline,
 .flairgrant .tagline {
     flex-grow: 1;
 }
-
+ 
 .flairtemplate .flair-entry,
 .flairlist.usertable > .flairrow,
 .flairlist.flairgrant > .usertable {
     display: flex;
 }
-
+ 
 .flairlist.usertable > .flairrow {
     margin-right: 160px;
 }
-
+ 
 /* flair grant specific */
-
+ 
 .flairlist.flairgrant > .usertable {
     flex-wrap: wrap;
 }
-
+ 
 .flairgrant .flairrow {
     flex-basis: 100%;
     display: flex;
 }
-
+ 
 .flairgrant > .usertable > .header:nth-child(3) {
     margin-right: 170px;
     margin-bottom: 5px
 }
-
+ 
 /*------------------------------------Downvote Arrow Popup Box-------------------------------------*/
 .arrow.down:hover:before { /* Tranparent hover downvote warning box BG. */
   position: absolute; display: block;  z-index: 1000;
@@ -2932,37 +2981,18 @@ content: " visitors"
   content: "Only downvote misleading or unconstructive content. DO NOT downvote just because you disagree with an opinon.";
 }
 .midcol { overflow: visible; }
-
+ 
 /*Disable Downvotes-Nonsubsriber Message*/
 body:not(.subscriber) .down
-{
+{ 
 visibility: hidden !important;
 }
-
+ 
 /*Fixes jumbled up appearance of Tool Box tab menu buttons if you have a narrow screen.*/
 @media (max-width: 1500px) {
     #header .tabmenu {
         text-align: left;
     }
-}
-
-/*Fixes issue where buttons and text are overlapping comment box*/
-.res .commentarea > .usertext {
-    margin-top: auto;
-}
-
-.titlebox a[href="https://www.reddit.com/r/ProCSS/"] {
-    display: inline-block;
-    font-size: 0px !important;
-    background: url(%%procss%%); /* Change to match name of your file */
-    width: 235px !important; /* change to size of image (here 1/2 for HD) */
-    height: 83px !important; /* change to size of image (here 1/2 for HD) */
-    background-size: 235px 83px; /* change to size of image (again)*/
-    background-repeat: no-repeat;
-    margin-left: 20px; /* Adjust space from left - 30px pretty much centers the "sidebar" icon */
-    margin-top: -10px; /* Adjust space above icon */
-    margin-bottom: -10px; /* Adjust space below icon */
-    /* An idea by u/reseph & u/titleproblems */
 }
 
 /** Generated by ticker bot [start of section] */
